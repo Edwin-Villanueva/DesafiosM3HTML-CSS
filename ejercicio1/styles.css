@@ -1,0 +1,53 @@
+@font-face {
+  font-family: MulishBlack;
+  src: url(./fonts/Mulish-Black.ttf);
+}
+@font-face {
+  font-family: MulishBold;
+  src: url(./fonts/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: MulishRegular;
+  src: url(./fonts/Mulish-Regular.ttf);
+}
+
+body {
+  margin: 1rem;
+  padding-left: 3em;
+  background-color: white;
+}
+
+#parrafo-cabecera {
+  font-family: "MulishBlack";
+  color: #04146c;
+  font-size: 37.48px;
+}
+.contenedor-padre {
+  display: flex;
+}
+.contenedor-padre img {
+  width: 3.5rem;
+  padding-top: 0.3em;
+  height: auto;
+  margin-right: 1em;
+  align-self: baseline;
+}
+.contenedor-hijo {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  margin: 0;
+  width: 60%;
+}
+
+.contenedor-hijo p:first-child {
+  font-size: 21.560000000000002px;
+  font-family: "MulishBold";
+  color: #0a2ff1;
+}
+
+.contenedor-hijo p:last-child {
+  font-size: 19.973333333333333px;
+  color: #04146c;
+  font-family: "MulishRegular";
+}
