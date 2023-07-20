@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/M4-desafio1-fondo.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  background-color: white;
+  border: 1px solid;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 2rem;
+  text-align: center;
+}
+form * {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+}
+form p {
+  width: 100%;
+  height: auto;
+}
+#contenedor {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/M4-desafio1-fondo-form.png);
+}
