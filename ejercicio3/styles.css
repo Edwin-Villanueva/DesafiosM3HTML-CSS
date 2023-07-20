@@ -1,0 +1,82 @@
+@font-face {
+  font-family: MulishBold;
+  src: url(./fonts/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: MulishRegular;
+  src: url(./fonts/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: MulishSB;
+  src: url(./fonts/Mulish-SemiBold.ttf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+form {
+  text-align: center;
+  width: 100%;
+}
+a {
+  margin-bottom: 0.5em;
+  font-size: 18.666666666666664px;
+  font-family: "MulishRegular";
+  text-decoration: none;
+  color: #0a2ff1;
+}
+h3 {
+  font-family: "MulishBold";
+  margin: 0;
+  color: #04146c;
+  font-size: 24px;
+}
+form * {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+form input {
+  border: 1px solid;
+  font-family: "MulishRegular";
+  font-size: 18.666666666666664px;
+  color: #414166;
+  width: 500px;
+  height: 50px;
+
+  margin-bottom: 10px;
+  padding: 10px;
+}
+form button {
+  border: 1px solid;
+  text-decoration: none;
+  font-family: "MulishSB";
+  font-size: 20px;
+  color: white;
+  background-color: #0a2ff1;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  width: 500px;
+  height: 50px;
+}
+
+hr {
+  border: 1px solid;
+  width: 500px;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+.contenedor {
+  border: 1px solid rgb(205 212 255);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  width: 580px;
+}
