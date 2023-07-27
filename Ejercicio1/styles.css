@@ -1,0 +1,65 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoSlabB;
+  src: url(./fonts/RobotoSlab-Bold.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding-top: 2rem;
+  background-color: rgb(57 88 241);
+}
+main {
+  text-align: center;
+}
+#container1 {
+  padding-top: 0.3rem;
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+#container1 img {
+  margin-left: 1rem;
+  width: 5%;
+}
+#lista {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 2rem;
+}
+#lista li {
+  margin-right: 3rem;
+  font-size: 18px;
+  font-family: "RobotoRegular";
+  color: #04146c;
+}
+#lista li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #04146c;
+}
+#container2 img {
+  width: 100%;
+}
+
+#activo {
+  font-weight: bold;
+}
+#parr1 {
+  font-family: "RobotoSlabB";
+  font-size: 96px;
+  color: #0a2ff1;
+  margin-bottom: 0;
+}
+#parr2 {
+  font-family: "RobotoRegular";
+  font-size: 34.666666666666664px;
+  color: #04146c;
+}
