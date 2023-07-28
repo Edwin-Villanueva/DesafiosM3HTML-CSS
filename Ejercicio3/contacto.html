@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 1</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="container1">
+        <img src="./images/M5-logo-azul.svg" alt="" />
+        <ul id="lista">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a id="activo" href="#">CONTACTO</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="container3">
+        <p id="pregunta">¿Querés que nos contactamos con vos?</p>
+        <p id="consulta">Dejanos tu consulta:</p>
+        <form action="">
+          <label for="nombre">Nombre completo*</label>
+          <input id="nombre" type="text" required />
+          <label for="email">Email</label>
+          <input
+            placeholder="email@mail.com"
+            id="email"
+            type="email"
+            required
+          />
+          <label for="comentario">Comentario*</label>
+          <textarea required name="" id="" cols="30" rows="10"></textarea>
+          <button id="reset" type="reset">Resetear</button>
+          <button id="submit" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
